@@ -1,0 +1,22 @@
+.panelContainer{
+    padding-left:60px;
+    padding-right:60px;
+    text-align: center;
+}
+.post{
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 0.5px #DEB887;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    color:#FFF8DC;
+
+}

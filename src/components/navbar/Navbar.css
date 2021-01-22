@@ -1,0 +1,24 @@
+.top {
+    width: fit-content;
+    position:fixed;
+    /* border: 0.5px solid gray; */
+    border-radius: 20px;
+    margin-left: 5px;
+    padding:0;
+    top: 95%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navText {
+    text-decoration: none;
+    color: #DEB887;
+    font-size: 20px;
+
+}
+
+.navText:hover {
+    text-decoration: none;
+    color: #D2691E;
+}

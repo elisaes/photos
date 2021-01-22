@@ -1,0 +1,18 @@
+.description{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#F0FFFF;
+}
+
+.about{
+    font-weight: 400;
+    font-family: 'Parisienne', cursive;
+    font-size: 22px;
+    color:#FFF8DC;
+
+}
+.author{
+    padding-top: 10px;
+    color:#F0FFFF;
+}
