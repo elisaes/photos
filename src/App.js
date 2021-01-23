@@ -21,7 +21,7 @@ class App extends Component {
     if (percent >= 95 && !this.loading) {
       this.loading = true;
       this.pageNo++;
-      const url = `${process.env.REACT_APP_BASE_URL}page=${this.pageNo}&${process.env.REACT_APP_ID}`;
+      const url = `${process.env.REACT_APP_BASE_URL}page=${this.pageNo}&client_id=${process.env.REACT_APP_UNISPLASH_CLIENT_ID}`;
       let result = await axios.get(url);
 
       let info = result.data;
@@ -34,7 +34,7 @@ class App extends Component {
 
   componentDidMount = async () => {
     try {
-      const url = `${process.env.REACT_APP_BASE_URL}page=${this.pageNo}&${process.env.REACT_APP_ID}`;
+      const url = `${process.env.REACT_APP_BASE_URL}page=${this.pageNo}&client_id=${process.env.REACT_APP_UNISPLASH_CLIENT_ID}`;
       let result = await axios.get(url);
       let info = result.data;
       this.setState({ photosArr: info });
